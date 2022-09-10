@@ -3,12 +3,16 @@ using UnityEngine;
 public class FoodSpawner : MonoBehaviour
 {
     [SerializeField]
-    private GameObject[] _foodPrefabs;
+    private Food[] _foodPrefabs;
+
+    [SerializeField]
+    private GameController _gameController;
 
     public void SpawnFood()
     {
         int randomIndex = Random.Range(0, _foodPrefabs.Length);
-        GameObject randomPrefab = _foodPrefabs[randomIndex];
-        Instantiate(randomPrefab, transform.position, Random.rotation);
+        Food randomPrefab = _foodPrefabs[randomIndex];
+        Food foodCopy = Instantiate(randomPrefab, transform.position, Random.rotation);
+        foodCopy.Initialize(_gameController);
     }
 }
