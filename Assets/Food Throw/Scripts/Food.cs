@@ -14,4 +14,13 @@ public class Food : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("KillZone"))
+        {
+            Instantiate(_explosionPrefab, transform.position, Random.rotation);
+            Destroy(gameObject);
+        }
+    }
 }
