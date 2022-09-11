@@ -14,15 +14,15 @@ public class GameController : MonoBehaviour
 
     private float _timer;
     private bool _isInProgress;
-    private int _currentScore;
+    private float _currentScore;
 
-    private int CurrentScore
+    private float CurrentScore
     {
         get => _currentScore;
         set
         {
             _currentScore = value;
-            _scoreText.text = _currentScore.ToString();
+            _scoreText.text = _currentScore.ToString("00.00");
         }
     }
 
@@ -33,10 +33,10 @@ public class GameController : MonoBehaviour
         CurrentScore = 0;
     }
 
-    public void AddScore()
+    public void AddScore(float addedScore)
     {
         if (_isInProgress)
-            CurrentScore++;
+            CurrentScore += addedScore;
     }
 
     private void Update()

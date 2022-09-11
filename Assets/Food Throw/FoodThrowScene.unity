@@ -1435,7 +1435,6 @@ GameObject:
   - component: {fileID: 389548532}
   - component: {fileID: 389548531}
   - component: {fileID: 389548530}
-  - component: {fileID: 389548535}
   m_Layer: 0
   m_Name: Target
   m_TagString: Target
@@ -1465,12 +1464,12 @@ HingeJoint:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 389548528}
-  m_ConnectedBody: {fileID: 0}
+  m_ConnectedBody: {fileID: 2056610221}
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0.625}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 2.82936, z: 4.41}
+  m_ConnectedAnchor: {x: 0, y: -0.067640066, z: 0}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -1573,20 +1572,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 389548528}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &389548535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 389548528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a03f185e738a05b479e65786805f5fe0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _moveAmplitude: 4
-  _defaultMoveSpeed: 1
 --- !u!1 &391949308
 GameObject:
   m_ObjectHideFlags: 0
@@ -4269,7 +4254,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.99999994, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.214, y: 0.912832, z: 1.009}
+  m_ConnectedAnchor: {x: 1.007, y: 0.912832, z: 1.016}
   serializedVersion: 2
   m_Spring: 100
   m_Damper: 0
@@ -5934,6 +5919,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2056610220}
+  - component: {fileID: 2056610222}
+  - component: {fileID: 2056610221}
   m_Layer: 0
   m_Name: TargetAnchor
   m_TagString: Untagged
@@ -5956,3 +5943,34 @@ Transform:
   m_Father: {fileID: 27773931}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &2056610221
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056610219}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &2056610222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056610219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a03f185e738a05b479e65786805f5fe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetRadius: 0.8
+  _moveAmplitude: 4
+  _defaultMoveSpeed: 1

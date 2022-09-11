@@ -2,12 +2,14 @@ using UnityEngine;
 
 public class TargetController : MonoBehaviour
 {
+    public float TargetRadius;
+
     [SerializeField]
     private float _moveAmplitude, _defaultMoveSpeed;
 
     private float _timer;
 
-    void Update()
+    private void FixedUpdate()
     {
         _timer += Time.deltaTime * _defaultMoveSpeed;
         Vector3 localPosition = transform.localPosition;
