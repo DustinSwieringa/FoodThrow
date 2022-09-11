@@ -3,6 +3,9 @@ using UnityEngine;
 public class Food : MonoBehaviour
 {
     [SerializeField]
+    private float _pointsMultiplier = 1;
+
+    [SerializeField]
     private GameObject _explosionPrefab;
 
     private GameController _gameController;
@@ -27,7 +30,7 @@ public class Food : MonoBehaviour
             float distanceFromEdge = Mathf.Max(0, targetRadius - distanceFromCenter);
 
             Instantiate(_explosionPrefab, transform.position, Random.rotation);
-            _gameController.AddScore(distanceFromEdge);
+            _gameController.AddScore(distanceFromEdge * _pointsMultiplier);
             Destroy(gameObject);
         }
     }
