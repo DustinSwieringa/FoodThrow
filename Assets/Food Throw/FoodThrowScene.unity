@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7776189}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BulletSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 23967178}
   - component: {fileID: 23967180}
   - component: {fileID: 23967179}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -435,7 +435,7 @@ GameObject:
   - component: {fileID: 74117048}
   - component: {fileID: 74117050}
   - component: {fileID: 74117049}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Socket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2635,7 +2635,7 @@ GameObject:
   - component: {fileID: 498204738}
   - component: {fileID: 498204737}
   - component: {fileID: 498204736}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3276,7 +3276,7 @@ GameObject:
   - component: {fileID: 727078719}
   - component: {fileID: 727078718}
   - component: {fileID: 727078717}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3554,7 +3554,7 @@ GameObject:
   - component: {fileID: 883747761}
   - component: {fileID: 883747763}
   - component: {fileID: 883747762}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5357,7 +5357,7 @@ GameObject:
   - component: {fileID: 1290775768}
   - component: {fileID: 1290775767}
   - component: {fileID: 1290775766}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5621,7 +5621,7 @@ GameObject:
   - component: {fileID: 1311746579}
   - component: {fileID: 1311746581}
   - component: {fileID: 1311746580}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SocketModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5783,7 +5783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1341431079}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AttachTransform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6600,7 +6600,7 @@ GameObject:
   - component: {fileID: 1526311426}
   - component: {fileID: 1526311428}
   - component: {fileID: 1526311427}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7602,7 +7602,7 @@ GameObject:
   - component: {fileID: 1722998661}
   - component: {fileID: 1722998663}
   - component: {fileID: 1722998662}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8582,7 +8582,7 @@ GameObject:
   - component: {fileID: 2128202037}
   - component: {fileID: 2128202036}
   - component: {fileID: 2128202035}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8679,7 +8679,7 @@ GameObject:
   - component: {fileID: 2134315681}
   - component: {fileID: 2134315680}
   - component: {fileID: 2134315679}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FoodLaucnher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
