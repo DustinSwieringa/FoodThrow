@@ -26,7 +26,7 @@ public class SliderInteractable : XRBaseInteractable
         _slider.localPosition = localPosition;
 
         float sliderMaxRange = _localMoveDistance + _localMoveDistance;
-        float sliderValue = localPosition.x + _localMoveDistance;
+        float sliderValue = localPosition.z + _localMoveDistance;
         float sliderRatio = sliderValue / sliderMaxRange;
 
         if (!Mathf.Approximately(sliderRatio, _currentSliderValue))

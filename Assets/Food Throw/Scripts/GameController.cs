@@ -26,6 +26,15 @@ public class GameController : MonoBehaviour
         }
     }
 
+    public void SetTime(float time)
+    {
+        if (_isInProgress)
+            return;
+
+        _defaultGameTime = 10 + (int)(time * 50);
+        _timerText.text = _defaultGameTime.ToString();
+    }
+
     public void StartGame()
     {
         _isInProgress = true;

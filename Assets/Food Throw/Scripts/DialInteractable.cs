@@ -39,7 +39,7 @@ public class DialInteractable : XRBaseInteractable
         if (!Mathf.Approximately(_currentAngle, newAngle))
         {
             _currentAngle = newAngle;
-            OnValueChanged?.Invoke(_currentAngle);
+            OnValueChanged?.Invoke(_currentAngle / _maxAngle);
         }
     }
 }
