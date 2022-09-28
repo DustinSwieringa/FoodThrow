@@ -7,6 +7,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3973664785614492378, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+      propertyPath: Rigidbody
+      value: 
+      objectReference: {fileID: 9040829545291009835}
+    - target: {fileID: 3973664785614492378, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+      propertyPath: BulletColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973664785614492378, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+      propertyPath: BulletColor.b
+      value: 0.18632075
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973664785614492378, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+      propertyPath: BulletColor.g
+      value: 0.745283
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973664785614492378, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+      propertyPath: BulletColor.r
+      value: 0.2769648
+      objectReference: {fileID: 0}
     - target: {fileID: 5224421714984260419, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -60,6 +80,11 @@ PrefabInstance:
 --- !u!4 &5394579726562768336 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5224421714984260419, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+  m_PrefabInstance: {fileID: 170497365675173523}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &9040829545291009835 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 9163348465879099832, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
   m_PrefabInstance: {fileID: 170497365675173523}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7609330152853299048

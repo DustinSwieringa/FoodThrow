@@ -100,6 +100,26 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3973664785614492378, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+      propertyPath: Rigidbody
+      value: 
+      objectReference: {fileID: 1795727868052988297}
+    - target: {fileID: 3973664785614492378, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+      propertyPath: BulletColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973664785614492378, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+      propertyPath: BulletColor.b
+      value: 0.16862744
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973664785614492378, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+      propertyPath: BulletColor.g
+      value: 0.584584
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973664785614492378, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+      propertyPath: BulletColor.r
+      value: 0.8784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973664785614492378, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
       propertyPath: _pointsMultiplier
       value: 1.2
       objectReference: {fileID: 0}
@@ -153,6 +173,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+--- !u!54 &1795727868052988297 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 9163348465879099832, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+  m_PrefabInstance: {fileID: 7476384511652612145}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3405191654040148850 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5224421714984260419, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}

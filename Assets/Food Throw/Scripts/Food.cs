@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Food : MonoBehaviour
 {
+    public Color BulletColor;
+
     [SerializeField]
     private float _pointsMultiplier = 1;
 

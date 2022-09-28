@@ -8,6 +8,26 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3973664785614492378, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+      propertyPath: Rigidbody
+      value: 
+      objectReference: {fileID: 8069702932326719905}
+    - target: {fileID: 3973664785614492378, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+      propertyPath: BulletColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973664785614492378, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+      propertyPath: BulletColor.b
+      value: 0.08156817
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973664785614492378, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+      propertyPath: BulletColor.g
+      value: 0.15879072
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973664785614492378, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+      propertyPath: BulletColor.r
+      value: 0.3679245
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973664785614492378, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
       propertyPath: _pointsMultiplier
       value: 1.2
       objectReference: {fileID: 0}
@@ -64,6 +84,11 @@ PrefabInstance:
 --- !u!4 &6365634870330415962 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5224421714984260419, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
+  m_PrefabInstance: {fileID: 1213606774743697433}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &8069702932326719905 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 9163348465879099832, guid: bf8ea9f1ec43f544a8b4e556f7a69afd, type: 3}
   m_PrefabInstance: {fileID: 1213606774743697433}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6828067218538934766
