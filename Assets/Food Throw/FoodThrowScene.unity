@@ -9049,4 +9049,4 @@ MonoBehaviour:
   _ammoSocket: {fileID: 74117050}
   _bulletPrefab: {fileID: 7022889598873486347, guid: 12192ec4fb5539043a83fe021e962dbb, type: 3}
   _bulletSpawn: {fileID: 7776189}
-  _bulletSpeed: 50
+  _bulletSpeed: 5

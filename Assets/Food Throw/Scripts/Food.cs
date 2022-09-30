@@ -3,6 +3,7 @@ using UnityEngine;
 public class Food : MonoBehaviour
 {
     public Color BulletColor;
+    public int AmmoValue = 1;
 
     [SerializeField]
     private float _pointsMultiplier = 1;

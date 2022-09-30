@@ -32,5 +32,11 @@ public class FoodLauncher : MonoBehaviour
             return;
 
         bulletRenderer.material.color = socketFood.BulletColor;
+
+        socketFood.AmmoValue--;
+        if (socketFood.AmmoValue <= 0)
+        {
+            Destroy(socketFood.gameObject);
+        }
     }
 }
